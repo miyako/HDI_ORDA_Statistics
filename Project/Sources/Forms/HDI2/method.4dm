@@ -1,6 +1,5 @@
-//%attributes = {"invisible":true}
 var $n; $i : Integer
-var $json; $_json : Object
+var $json; $_json : Collection
 
 
 Case of 
@@ -20,18 +19,8 @@ Case of
 		$_json:=$json.query("PageNumber < :1"; 9).orderBy("PageNumber asc")
 		COLLECTION TO ARRAY:C1562($_json; _TabTitles; "TabTitle"; _Descriptions; "Description")
 		
-		//READ ONLY([INFO])
-		//QUERY([INFO]; [INFO]PageNumber; "<"; 9)
-		//ORDER BY([INFO]; [INFO]PageNumber; >)
-		//SELECTION TO ARRAY([INFO]TabTitle; _TabTitles; [INFO]Description; _Descriptions)
-		
 		$_json:=$json.query("PageNumber >= :1"; 10).orderBy("PageNumber asc")
 		COLLECTION TO ARRAY:C1562($_json; _Directions; "Description")
-		
-		//READ ONLY([INFO])
-		//QUERY([INFO]; [INFO]PageNumber; ">="; 10)
-		//ORDER BY([INFO]; [INFO]PageNumber; >)
-		//SELECTION TO ARRAY([INFO]Description; _Directions)
 		
 		If (Is Windows:C1573)
 			ST SET ATTRIBUTES:C1093(_Descriptions{1}; ST Start text:K78:15; ST End text:K78:16; Attribute text size:K65:6; 14)
@@ -39,6 +28,15 @@ Case of
 		
 		If (Is macOS:C1572)
 			ST SET ATTRIBUTES:C1093(_Descriptions{1}; ST Start text:K78:15; ST End text:K78:16; Attribute text size:K65:6; 18)
+		End if 
+		
+		If (ds:C1482.Employee.getCount()=0)
+			If (Get database localization:C1009(Current localization:K5:22)="ja")
+				$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("Employee-ja.json").getText(); Is collection:K8:32)
+			Else 
+				$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("Employee-en.json").getText(); Is collection:K8:32)
+			End if 
+			ds:C1482.Employee.fromCollection($json)
 		End if 
 		
 		//List box employees
