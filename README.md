@@ -1,4 +1,4 @@
-# HDI_Template
+# HDI_ORDA_Statistics
 
 A 4D v17 **HDI** (How Do I) binary database demonstrating "Compute statistics on entity selections with ORDA", converted to a 4D project using 4D 21. The codebase was then updated and cleaned up with the help of **GitHub Copilot**.
 
