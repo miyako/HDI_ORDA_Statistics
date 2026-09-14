@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI2_Text8" resname="HDI2_Text8">
+        <source>Employees</source>
+        <target>従業員</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text2" resname="HDI2_Text2">
+        <source>Employees</source>
+        <target>従業員</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text11" resname="HDI2_Text11">
+        <source>Max salary:</source>
+        <target>最高給与:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text12" resname="HDI2_Text12">
+        <source>Min salary:</source>
+        <target>最低給与:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text13" resname="HDI2_Text13">
+        <source>Total:</source>
+        <target>合計:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text14" resname="HDI2_Text14">
+        <source>Average salary:</source>
+        <target>平均給与:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text15" resname="HDI2_Text15">
+        <source>Number of employees praticing a hobby:</source>
+        <target>趣味を持つ従業員数:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_Text1" resname="HDI2_Text1">
+        <source>Select several employees and check the statistics below:</source>
+        <target>複数の従業員を選択して、以下の統計情報を確認してください:</target>
+      </trans-unit>
+      <trans-unit id="HDI2_ViewHobbiesButton" resname="HDI2_ViewHobbiesButton">
+        <source>Hobbies practiced</source>
+        <target>趣味を表示</target>
+      </trans-unit>
+      <trans-unit id="HDI2_CheckBoxTrace" resname="HDI2_CheckBoxTrace">
+        <source>Trace</source>
+        <target>トレース</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderFirstName" resname="HDI2_HeaderFirstName">
+        <source>First name</source>
+        <target>名</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderLastName" resname="HDI2_HeaderLastName">
+        <source>Last name</source>
+        <target>姓</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderSalary" resname="HDI2_HeaderSalary">
+        <source>Salary</source>
+        <target>給与</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderHobbies" resname="HDI2_HeaderHobbies">
+        <source>Hobbies</source>
+        <target>趣味</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderHobby" resname="HDI2_HeaderHobby">
+        <source>Hobby</source>
+        <target>趣味</target>
+      </trans-unit>
+      <trans-unit id="HDI2_HeaderPracticedHobbies" resname="HDI2_HeaderPracticedHobbies">
+        <source>Practiced hobbies</source>
+        <target>実践している趣味</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

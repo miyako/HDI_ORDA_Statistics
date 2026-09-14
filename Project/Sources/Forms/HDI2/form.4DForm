@@ -80,7 +80,7 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Employees"
+					"text": ":xliff:HDI2_Text8"
 				},
 				"ListBoxEmployees": {
 					"type": "listbox",
@@ -122,7 +122,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "First name",
+								"text": ":xliff:HDI2_HeaderFirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -133,7 +133,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -152,7 +153,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Last name",
+								"text": ":xliff:HDI2_HeaderLastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -163,7 +164,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -183,7 +185,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Salary",
+								"text": ":xliff:HDI2_HeaderSalary",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -194,7 +196,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column9",
@@ -213,7 +216,7 @@
 							],
 							"header": {
 								"name": "Header9",
-								"text": "Hobbies",
+								"text": ":xliff:HDI2_HeaderHobbies",
 								"stroke": "automatic",
 								"textAlign": "center",
 								"verticalAlign": "automatic"
@@ -224,7 +227,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -255,7 +259,7 @@
 					"width": 130,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Max salary:"
+					"text": ":xliff:HDI2_Text11"
 				},
 				"Text12": {
 					"type": "text",
@@ -264,7 +268,7 @@
 					"width": 130,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Min salary:"
+					"text": ":xliff:HDI2_Text12"
 				},
 				"Text13": {
 					"type": "text",
@@ -273,7 +277,7 @@
 					"width": 130,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Total:"
+					"text": ":xliff:HDI2_Text13"
 				},
 				"Text14": {
 					"type": "text",
@@ -282,7 +286,7 @@
 					"width": 130,
 					"height": 15,
 					"textAlign": "right",
-					"text": "Average salary:"
+					"text": ":xliff:HDI2_Text14"
 				},
 				"Variable9": {
 					"type": "input",
@@ -352,7 +356,7 @@
 					"width": 250,
 					"height": 20,
 					"textAlign": "right",
-					"text": "Number of employees praticing a hobby:"
+					"text": ":xliff:HDI2_Text15"
 				},
 				"Variable13": {
 					"type": "input",
@@ -461,7 +465,7 @@
 					"width": 400,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Select several employees and check the statistics below:"
+					"text": ":xliff:HDI2_Text1"
 				}
 			}
 		},
@@ -494,7 +498,7 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "Employees"
+					"text": ":xliff:HDI2_Text2"
 				},
 				"ListBoxEmployees1": {
 					"type": "listbox",
@@ -533,7 +537,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "First name",
+								"text": ":xliff:HDI2_HeaderFirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -544,7 +548,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column5",
@@ -559,7 +564,7 @@
 							"verticalAlign": "automatic",
 							"header": {
 								"name": "Header5",
-								"text": "Last name",
+								"text": ":xliff:HDI2_HeaderLastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -570,7 +575,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column6",
@@ -591,7 +597,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "Salary",
+								"text": ":xliff:HDI2_HeaderSalary",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -602,7 +608,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column7",
@@ -621,7 +628,7 @@
 							],
 							"header": {
 								"name": "Header7",
-								"text": "Hobby",
+								"text": ":xliff:HDI2_HeaderHobby",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -632,7 +639,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -673,7 +681,7 @@
 							],
 							"header": {
 								"name": "Header8",
-								"text": "Practiced hobbies",
+								"text": ":xliff:HDI2_HeaderPracticedHobbies",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -684,7 +692,8 @@
 								"fill": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
-							}
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -693,8 +702,8 @@
 					"top": 444,
 					"left": 70,
 					"width": 180,
-					"height": 20,
-					"text": "Hobbies practiced",
+					"text": ":xliff:HDI2_ViewHobbiesButton",
+					"class": "default",
 					"focusable": false,
 					"method": "ObjectMethods/ViewHobbiesButton.4dm",
 					"events": [
@@ -726,7 +735,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_CheckBoxTrace",
 					"focusable": false,
 					"events": [
 						"onClick"
