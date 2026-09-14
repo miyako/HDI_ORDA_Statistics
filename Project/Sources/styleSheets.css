@@ -1,0 +1,27 @@
+/*
+	Cross-platform stylesheet.
+	Dark mode support via "automatic"/"automaticAlternate" values set directly on
+	form objects (see form.4DForm files) is handled by 4D itself. This file only
+	carries the classes that still need explicit light/dark colour values because
+	they use custom/branded colours instead of the automatic keywords.
+*/
+
+@media (prefers-color-scheme: light) {
+	.hdi-panel {
+		fill: #C0C0C0;
+	}
+
+	.hdi-link {
+		stroke: #1E90FF;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-panel {
+		fill: #3A3A3A;
+	}
+
+	.hdi-link {
+		stroke: #5CB8FF;
+	}
+}

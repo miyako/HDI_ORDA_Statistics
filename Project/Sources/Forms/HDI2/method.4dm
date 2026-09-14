@@ -1,6 +1,6 @@
-
-C_LONGINT:C283($n; $i)
-C_BOOLEAN:C305(btnTrace)
+//%attributes = {"invisible":true}
+var $n; $i : Integer
+var $json; $_json : Object
 
 
 Case of 

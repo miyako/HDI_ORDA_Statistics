@@ -19,3 +19,26 @@
 	font-weight: bold;
 }
 
+/* macOS Tahoe Liquid Glass renders push buttons with rounded corners only
+   once they reach a 27px height threshold; below that they render flat and
+   square. Classic macOS buttons use the traditional 23px height. */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}
+
